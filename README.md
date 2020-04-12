@@ -11,11 +11,11 @@ A descrição da tarefa a ser realizada é descrito no pdf em anexo ao repositó
 ## Execução
 
   - A aplicação requer a execução do servidor e do cliente(pode ter 1 ou mais clientes), então será necessário a abertura de 1 prompt para o servidor e 1 prompt para cliente adicional.
-### Execução de servidor
+### Execução de servidor(NameNode)
   - Abra um prompt de comando e execute o seguinte comando na raiz do projeto 
   - python exerc23.py 
   - O prompt ficará travado esperando que um ou mais clientes conectem que as tarefas sejam finalizadas.
-### Execução de cliente
+### Execução de cliente(DataNode)
   - Para cada cliente abra um prompt de comando e execute o seguinte comando na raiz do projeto
   - python mincemeat.py -p changeme localhost
   - O cliente foi configurado para mostrar as chaves reduce no prompt de comando
@@ -25,3 +25,4 @@ A descrição da tarefa a ser realizada é descrito no pdf em anexo ao repositó
 ## Configuração
   - O código executa em python 2.7.x (garantidamente com 2.7.17)
   - Foi executado em ambiente Windows 10
+
